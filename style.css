@@ -72,6 +72,10 @@ main{
     height: 15rem;
     min-width: 50%;
 }
+.main-bidang div img{
+    height: 10rem;
+    width: auto;
+}
 
 #sistem-informasi,
 #muldok,
@@ -85,7 +89,7 @@ main{
     background-color: rgb(255, 0, 98);
     width: 10rem;
     height: .13rem;
-    top: 105%;
+    top: 100%;
     position: absolute;
 }
 #sistem-informasi::before,
@@ -99,7 +103,7 @@ main{
     position: absolute;
 }
 #sekre::before{
-    top: 25%;
+    top: 28%;
 }
 .main-bidang:hover{
     cursor: pointer;
@@ -114,18 +118,21 @@ main{
     opacity: 0%;
     transition: .5s;
     transform: scale(1.2,1.2);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.overlay p{
+    font-size: 1.2rem;
 }
 .main-bidang > div:hover .overlay{
     opacity: 100%;
     transition: .5s;
-    transform: scale(1,1);
+    transform: scale(1,.8);
 }
 
 @media only screen and (max-width: 770px){
     .main-bidang div{
         min-width: 100%
     }
-    #sistem-informasi::before,
     #sekre::before{
     content: '';
     background-color: rgb(255, 0, 98);
@@ -144,7 +151,8 @@ main{
 div.tap{
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    left: 51%;
+    transform: translate(-50%,-50%);
     background-color: transparent;
 }
 .motivation{
@@ -153,6 +161,7 @@ div.tap{
     color: white;
     border-radius: 10px;
     padding: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 footer{
     display: flex;
@@ -168,7 +177,7 @@ footer{
     width:100%;
     height: 100vh;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.808);
+    background: linear-gradient(to bottom right, rgba(255, 145, 0, 0.952), rgba(255, 23, 112, 0.952));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -178,17 +187,28 @@ footer{
 }
 
 .data{
-    background-color: white;
     min-width: 70%;
     max-width: 85%;
     min-height: 25rem;
     border-radius: 10px;
     transform: scale(0,0);
     transition: .3s;
+    color: white;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.384);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.8px);
+    -webkit-backdrop-filter: blur(3.8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .data h2{
     padding: .8rem 0;
     font-size: 3rem;
+}
+.tap h2{
+    letter-spacing: 10px;
+    color: rgb(206, 206, 206);
 }
 table{
     display: flex;
@@ -218,7 +238,7 @@ td::after{
     left: 50%;
     width: 80%;
     transform: translate(-50%,-50%);
-    background: rgba(128, 128, 128, 0.144);
+    background: rgba(255, 255, 255, 0.144);
     height: 2px;
     border-radius: 10px;
 }
