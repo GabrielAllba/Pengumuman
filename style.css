@@ -284,3 +284,10 @@ td::after{
         padding: 5rem;
     }
 }
+#love{
+    height: 1rem;
+}
+footer p img{
+    vertical-align: bottom;
+    padding-bottom: 2px;
+}
