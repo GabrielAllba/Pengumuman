@@ -269,6 +269,7 @@ td::after{
     }
     .data p{
         font-size: .8rem;
+        padding: 0 2rem;
     }
     header{
         background-image: url('./image/background-oprec-ifest-01.png');
