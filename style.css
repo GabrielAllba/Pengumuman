@@ -105,7 +105,7 @@ main{
 #sekre::before{
     top: 28%;
 }
-.main-bidang:hover{
+.main-bidang div:hover{
     cursor: pointer;
 }
 .overlay{
@@ -148,7 +148,7 @@ main{
 }
 
 }
-div.tap{
+.tap{
     position: absolute;
     top: 50%;
     left: 51%;
@@ -206,7 +206,7 @@ footer{
     padding: .8rem 0;
     font-size: 3rem;
 }
-.tap h2{
+.tap{
     letter-spacing: 10px;
     color: rgb(206, 206, 206);
 }
@@ -246,7 +246,7 @@ td::after{
     .main-tittle{
         width: 90%;
     }
-    div.tap{
+    .tap{
         display: none;
     }
     footer{
