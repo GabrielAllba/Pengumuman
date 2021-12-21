@@ -165,7 +165,7 @@ div.tap{
 }
 footer{
     display: flex;
-    padding: 1rem 1.5rem;
+    margin: 3rem 2rem;
     font-size: .8rem;
     justify-content: space-between;
 }
@@ -269,5 +269,17 @@ td::after{
     }
     .data p{
         font-size: .8rem;
+    }
+    header{
+        background-image: url('./image/background-oprec-ifest-01.png');
+        background-position: 10%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+        padding: 5rem;
     }
 }
