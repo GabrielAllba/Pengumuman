@@ -37,10 +37,13 @@ header{
     color: white;
     padding: 5rem;
 }
-
-header img{
-    height: 75px;
-    width: auto;
+.header-img{
+    display: flex;
+}
+.header-img img{
+    height: auto;
+    width: 5rem;
+    margin: 1rem;
     background-color: white;
     padding: 1rem;
     border-radius: 50%;
