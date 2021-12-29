@@ -39,15 +39,21 @@ header{
 }
 .header-img{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .header-img img{
     height: auto;
-    width: 5rem;
+    max-width: 5rem;
     margin: 1rem;
     background-color: white;
     padding: 1rem;
-    border-radius: 50%;
+    border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+#ifest-logo{
+    width: 100%;
+    height: auto;
 }
 main{
     display: flex;
