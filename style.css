@@ -310,3 +310,21 @@ footer p img{
     vertical-align: bottom;
     padding-bottom: 2px;
 }
+td:first-child {
+    padding-left: 6rem;
+    text-align: left;
+}
+
+td:last-child {
+    padding-right: 6rem;
+    text-align: right;
+}
+@media only screen and (max-width: 770px) {
+    td:first-child {
+        padding-left: 12%;
+    }
+
+    td:last-child {
+        padding-right: 12%;
+    }
+}
