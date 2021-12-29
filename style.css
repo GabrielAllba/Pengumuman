@@ -200,9 +200,7 @@ footer{
     align-items: center;
 }
 .line-cp p{
-    margin: 0 10px;
-}
-.line-cp i{
+    margin-left: 10px;
 }
 
 .data{
