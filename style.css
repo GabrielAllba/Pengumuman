@@ -324,6 +324,6 @@ td:last-child {
     }
 
     td:last-child {
-        padding-right: 12%;
+        padding-right: 1rem;
     }
 }
